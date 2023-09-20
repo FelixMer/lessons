@@ -8,9 +8,32 @@ h2{
     color: firebrick;
 }
 
-span{
+span,
+h2{
     color: yellowgreen;
 }
 a{
     color: silver;
 }
+
+ul{
+    color: darkgoldenrod;
+}
+
+li{
+    color: blue;
+}
+#car{
+    color: darkorange;
+}
+
+.about .raw{
+    color: indigo;
+}
+
+
+
+img{
+    max-width: 500px;
+}
+
