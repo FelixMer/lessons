@@ -48,6 +48,7 @@ h1{
     color: rgb(86, 91, 2);
     font-weight: bold;
     text-shadow: 3px 3px 3px;
+    
 }
 
 .center_img,
@@ -123,7 +124,7 @@ font-family: '1216-font';
 }
 
 .last_font{
-    
+    text-decoration: line-through;
 }
 
 
