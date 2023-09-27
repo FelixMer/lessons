@@ -6,7 +6,8 @@
 
 
 body{
-    max-width:  1920px;
+    max-width:  100%;
+    box-sizing: border-box;
     
 }
 
@@ -16,13 +17,13 @@ header{
 }
 
 main{
-    width: 1920px;
     display: flex;
     justify-content: center;  
 }
 
 .block_one_wrapper{
     padding-top: 20px;
+    box-sizing: border-box;
      
 }
 
@@ -32,7 +33,7 @@ main{
     font-size: 30px;
     font-family: Poppins;
     font-weight: 600;
-    line-height: 38.10px;
+    line-height: 38px;
 }
 
 .text_about{
@@ -40,7 +41,7 @@ main{
     font-size: 18px;
     font-family: Inter;
     font-weight: 400;
-    line-height: 26.31px;
+    line-height: 26px;
 }
 
 .sub_text_head{
@@ -48,12 +49,13 @@ main{
     font-size: 20px;
     font-family: Poppins;
     font-weight: 600;
-    line-height: 25.40px;
+    line-height: 25px;
 }
 .block_one{
     max-width: 716px;
     justify-content: center;
 }
+
 
 .macbook{
     width: 399px;
@@ -63,6 +65,7 @@ main{
 
 .block_thoe{
    display: flex;
+   column-gap: 29px;
    
    
 
@@ -72,8 +75,9 @@ main{
     font-size: 25px;
     font-family: Poppins;
     font-weight: 600;
-    line-height: 31.75px;
+    line-height: 32px;
     margin-bottom: 15px;
+    
 
 }
 
@@ -82,7 +86,7 @@ main{
     font-size: 20px;
     font-family: Poppins;
     font-weight: 600;
-    line-height: 25.40px;
+    line-height: 26px;
     margin-bottom: 21px;
 }
 .text_about{
@@ -97,6 +101,7 @@ main{
     height: 518px;
     margin-left: -300px;
     padding-top: 50px;
+    column-gap: 38px;
 
 }
 
@@ -116,6 +121,8 @@ main{
 .jew_foto{
     display: flex;
     flex-direction: row;
+    column-gap: 25px;
+    
      
      
     
