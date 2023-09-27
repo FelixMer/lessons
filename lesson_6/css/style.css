@@ -1,0 +1,180 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet');
+
+
+body{
+    max-width:  1920px;
+    
+}
+
+header{
+    background-color: #37393F;
+    
+}
+
+main{
+    width: 1920px;
+    display: flex;
+    justify-content: center;  
+}
+
+.block_one_wrapper{
+    padding-top: 20px;
+     
+}
+
+
+.text_head{
+    color: #37393F;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 38.10px;
+}
+
+.text_about{
+    color: #7D7D7D;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26.31px;
+}
+
+.sub_text_head{
+    color: #6B77E5;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 25.40px;
+}
+.block_one{
+    max-width: 716px;
+    justify-content: center;
+}
+
+.macbook{
+    width: 399px;
+    height: 266px;
+}
+
+
+.block_thoe{
+   display: flex;
+   
+   
+
+}
+.text_head{
+    color: #37393F;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 31.75px;
+    margin-bottom: 15px;
+
+}
+
+.sub_text_head_thoe{
+    color: #40DDB6;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 25.40px;
+    margin-bottom: 21px;
+}
+.text_about{
+    margin-bottom: 30px;
+    
+
+}
+
+.jewellery{
+    display: flex;
+    width: 1170px;
+    height: 518px;
+    margin-left: -300px;
+    padding-top: 50px;
+
+}
+
+
+
+
+
+.text_part_thoe{
+    width: 399px;
+    height: 266px;
+}
+.meet{
+    width: 716px;
+    height: 478px;
+}
+
+.jew_foto{
+    display: flex;
+    flex-direction: row;
+     
+     
+    
+}
+
+.orange_jew{
+    color: #D06B00;
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.create{
+    color: #0E333D;
+    font-size: 59px;
+    font-family: DM Serif Text;
+    font-weight: 400;
+    line-height: 87px;
+}
+
+.main_jew{
+    margin: 40px 0;
+}
+
+.info_jew{
+    color: #474747;
+font-size: 20px;
+font-family: Inter;
+font-weight: 400;
+line-height: 36px;
+}
+
+.jewellery_one{
+    width: 273px;
+    height: 512px;
+    border-radius: 5px;
+    
+}
+
+.jewellery_thoe{
+    width: 273px;
+    height: 512px;
+    border-radius: 5px;
+
+}
+
+footer{
+    height: 20%;
+    background-color: #0E333D;
+    margin-top: 150px;
+}
+
+.F_1{
+   color: #DCDCDC; 
+   width: 320px;
+   height: 87px;
+   padding-top: 20px;
+}
+
+.social{
+    margin-top: 20px;
+}
