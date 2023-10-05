@@ -1,0 +1,305 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+
+/* Header */
+header{
+    color: #37393F;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu{
+    display: inline-block;
+    
+}
+
+
+.header_menu li{
+    display: inline-block;
+    
+}
+
+.nav{
+    width: 960px;
+
+}
+
+
+/* Main */
+
+main{
+    display: block;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.licening{
+    max-width: 1218px;
+    margin: 0 auto;
+   padding: 150px 15px;
+}
+
+.center{
+   text-align: center;
+}
+
+
+.cube{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40ddb6;
+}
+
+.temp{
+    display: inline-block;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.center_lic{
+    text-align: center;
+}
+
+h2,
+h3,
+h4
+{
+    color: #37393F;
+    font-weight: 700;
+    font-family: Poppins;
+
+}
+
+h2{
+    font-size: 60px;
+    line-height: 172%;
+}
+
+h3{
+    font-size: 40px;
+    line-height: 148%;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h6{ 
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+p{
+    color: #7D7D7D;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 26.31px;
+   
+}
+
+span{
+    color: #40DDB6;
+}
+
+.block_one,
+.block_thoe{
+    margin-bottom: 100px;
+
+}
+.block_thoe p{
+    margin-bottom: 24px;
+}
+
+.project_info{
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.one_block,
+.thoe_block,
+.three_block{
+    margin-bottom: 35px;
+}
+.list_one,
+.list_thoe{
+    margin-left: 16px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    color: #7D7D7D;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+
+}
+
+.list_one li,
+.list_thoe li{
+    margin-bottom: 25px ;
+    font-weight: 500;
+}
+
+
+
+.india{
+        font-family: "Causten", sans-serif;
+    color: #807d7e;
+    font-size: 20px;
+    max-width: 1249px;
+    padding: 100px 15px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Core Sans C;
+    src: url(../fonts/CoreSansC-55Medium.woff);
+    src: url(../fonts/CoreSansC-55Medium.woff2);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.india h4,
+h6{
+    font-size: 28px;
+font-family: Core Sans C;
+font-weight: 600;
+line-height: 33.50px;
+letter-spacing: 0.56px;
+word-wrap: break-word
+}
+
+.online{
+    color: #3C4242;
+    font-family: "Core Sans C", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+
+.reexplore{
+    color: #807D7E;
+    font-size: 20px;
+    font-family: Core Sans C;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.india_content{
+    color: #7D7D7D;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 126%;
+}
+
+.india_content span{
+    font-weight: 700;
+    color: #807d7e;
+}
+
+.india_one p,
+.india_thoe p{
+    margin-bottom: 20px;
+}
+
+
+.india_thoe h6{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.jewellery{
+    resize: both;
+    font-family: "Cormorant Infant", sans-serif;
+    font-weight: 700;
+    max-width: 1150px;
+    padding: 30px 15px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.jew_text{
+    max-width: 503px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 85px;
+    text-align: start;
+    color: #D58417;
+    text-transform: uppercase;
+}
+
+.jew_text h2{
+    color: #000;
+    font-size: 64px;
+    margin-bottom: 31px;
+    text-transform: capitalize;
+}
+
+
+.text_part{
+    color: #606060;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+
+.jew_foto{
+    display: inline-block;
+    max-width: 525px;
+    font-size: 0;
+   
+   
+}
+.foto_one{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    padding-top: 15px;
+    padding-right: 8px;
+    margin-right: 24px;
+}
+
+.foto_one img{
+    margin-left: -14px;
+    margin-bottom: -16px;
+    border-radius: 235px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.foto_thoe{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    padding-top: 15px;
+    padding-right: 8px;
+}
+
+.foto_thoe img{
+    margin-left: -14px;
+    margin-bottom: -16px;
+    border-radius: 235px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+img{
+    vertical-align: top;
+}
