@@ -1,0 +1,547 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+main{
+    display: block;
+}
+
+/* Header */
+.header{
+    margin-bottom: 50px;
+}
+  
+.header_main{
+      max-width: 1250px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  
+.header_main img{
+      vertical-align: middle;
+    }
+  
+.header_body{
+      padding: 20px 0px;
+    }
+  
+.header_menu{
+      display: inline-block;
+      vertical-align: middle;
+      text-align: right;
+      width: 794px;
+    }
+  
+.menu_item{
+      display: inline-block;
+      margin-right: 40px;
+    }
+
+
+  /* main */
+
+.practice{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 673px;
+    margin: 0 auto;
+}
+.part_one{
+    margin-bottom: 16px;
+}
+
+.green_cube{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40ddb6;
+    margin-right: 6px;
+}
+
+.green_text{
+    display: inline-block;
+    color: #37393f;
+    font-weight: 500;
+}
+
+.we_care{
+    color: #37393F;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text_intake{
+  width: 673px;
+  color: #7D7D7D;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.text_part_one{
+margin-bottom: 15px;
+}
+
+
+
+
+.list_components{
+    width: 613px;
+
+}
+
+
+.list_items{
+    margin-bottom: 40px;
+}
+
+.list_item{
+    color: #37393f;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: url(../img/svg/Vector.svg) no-repeat;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.expiriens{
+    display: inline-block;
+    vertical-align: middle;
+    
+
+}
+
+.ex_one,
+.ex_thoe{
+    max-width: 295px;
+    border: 1px solid #e3e3e3;
+    padding: 32px;
+    display: inline-block;
+}
+
+
+.expiriens h5{
+    color: #37393F;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+
+}
+
+.expiriens p{
+    color: #7D7D7D;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+
+}
+
+.text_ex_one{
+    padding-left: 58px;
+    background: url(../img/Icon.jpg) no-repeat;
+}
+
+.ex_thoe_text{
+    padding-left: 58px;
+    background: url(../img/Icon_2.jpg) no-repeat;
+}
+
+
+/*Clothing*/
+
+@font-face {
+    font-family: Core Sans C;
+    src: url(../fonts/CoreSansC-55Medium.woff);
+    src: url(../fonts/CoreSansC-55Medium.woff2);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Core Sans C;
+    src: url(../fonts/Causten-Regular.woff);
+    src: url(../fonts/Causten-Regular.woff2);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.practice_thoe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.clothing{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+.line{
+    display: inline-block;
+    width: 6px;
+    height: 28px;
+    background-color: #8a33fd;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.article_Cloathing{
+    margin-bottom: 30px;
+}
+
+.line_text{
+    display: inline-block;
+    font-family: "Core Sans C";
+    color: #3c4242;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+    padding-left: 15px;
+}
+
+.thoe_practice_chapster{
+    padding-left: 20px;
+}
+
+.thoe_practice_chapster h4{
+    color: #807d7e;
+    font-family: "Core Sans C";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.chapster_one p{
+    color: #807d7e;
+    font-family: "Causten";
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.chapster_one span{
+    color: #807d7e;
+    font-family: "Causten";
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+
+.link_see{
+color: #807D7E;
+font-size: 20px;
+font-family: "Core Sans C";
+font-weight: 700;
+line-height: 33.50px;
+}
+
+
+
+
+.practice_three{
+    width: 1250px;
+    margin: 0 auto 150px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.latest_project{
+    margin-bottom: 14px;
+}
+
+.project{
+    margin-bottom: 14px;
+
+}
+
+.cube_green{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40ddb6;
+    margin-right: 6px;
+}
+
+.cube_text{
+    display: inline-block;
+    color: #37393f;
+    font-weight: 500;
+}
+
+.gallery_discovery{
+    text-align: left;
+    font-size: 0;
+}
+
+.disco{
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+
+.disco_text{
+    max-width: 852px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+
+
+.card_one,
+.card_thoe,
+.card_three,
+.card_four,
+.card_five,
+.card_six{
+    max-width: 384px;
+    margin-right: 34px;
+    display: inline-block;
+}
+
+.gallary_item_1,
+.gallary_item_2,
+.gallary_item_3,
+.gallary_item_4,
+.gallary_item_5,
+.gallary_item_6{
+  min-width: 384px;
+  min-height: 501px;
+  margin-bottom: 24px;
+}
+
+.gallary_part_one{
+    margin-bottom: 58px;
+}
+
+
+.card_three,
+.card_six{
+    margin: 0;
+}
+
+
+.date{
+    background: url(../img/calendar.jpg) no-repeat; 
+    line-height: 1.46;
+    padding-left: 26px;
+    font-size: 14px;
+    
+}
+
+.gallary_item_1{
+    background: url(../img/investment.jpg) center no-repeat;
+}
+.gallary_item_2{
+    background: url(../img/marketing.jpg) no-repeat;
+}
+.gallary_item_3{
+    background: url(../img/consalting.jpg) no-repeat;
+}
+.gallary_item_4{
+    background: url(../img/fin_invest.jpg) no-repeat;
+}
+.gallary_item_5{
+    background: url(../img/web.jpg) no-repeat;
+}
+.gallary_item_6{
+    background: url(../img/fin_invest.jpg) no-repeat;
+}
+
+.card_info{
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+
+.practice_four {
+    max-width: 1270px;
+    margin: 0 auto 50px;
+    padding: 10px 15px;
+  }
+  .practice_thoe_foto {
+    max-width: 1240px;
+    font-size: 0;
+  }
+  .we_dark,
+  .we_company {
+    width: 613px;
+    min-height: 640px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .we_dark {
+    background: url("../img/we_dark.jpg") center/cover no-repeat;
+  }
+  .we_company {
+    background: url("../img/we_company.jpg") center/cover no-repeat;
+  }
+  
+  .we_dark_text {
+    padding: 183px 74px 174px;
+  }
+  .darkside {
+    color: #fff;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.47;
+    letter-spacing: 0.208px;
+    margin-bottom: 30px;
+  }
+  .we_dark_text p {
+    color: #fff;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+  }
+  .Shop {
+    color: #3c4242;
+    display: inline-block;
+    text-align: center;
+    font-family: " Causten", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 44px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+
+             /*fish time*/
+  .my_practise{
+    background-image: url(../img/fish.jpg);
+    margin: o auto;
+    height: 10000px;
+    background-repeat: repeat;
+    justify-content: center;
+
+  }
+
+
+  .practice_wrapper{
+   padding: 50px;
+  }
+
+  .p_one{
+    background-color: #8a33fd;
+    border-radius: 80px;
+    max-width: 800px;
+    display: inline-block;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .fish_items{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fish_item{
+    margin-bottom: 50px;
+  }
+
+  .fish_name{
+    display: inline-block;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 120px;
+    height: 50px;
+    background-color: #40ddb6;
+    padding-left: 25px;
+    padding-bottom: 15px;
+  }
+
+  .fish_name:hover{
+    border-radius: 20px;
+    color: #8a33fd;
+    transition: 0.5s;
+    padding-top: 15px;
+  }
+
+  .fish_type{
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+
+
+
+  .cat{
+    width: 1200px;
+    height: 1100px;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 20%, rgba(9, 121, 48, 1) 46%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 50%;
+   
+  }
+
+  .p_thoe{
+    height: 3000px;
+
+  }
+
+  .cat_text{
+    padding: 150px;
+    box-shadow: 20px #8a33fd;
+    color: white;
+   
+  }
+
+  .cat img{
+    padding: 20px 0px 0px 150px;
+
+  }
+
+  .many_cats{
+    width: 100%;
+    height: 1600px;
+    background-image: url(../img/cats.png);
+  }
+
+  .something_next{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+  }
+
+  .car_imege{
+    opacity: 0;
+  }
+  .car_imege:hover{
+    opacity: 1;
+    transition: 2s;
+  }
+
+  .jack{
+    height: 1356px;
+    background-image: url(../img/jack.png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+  }
