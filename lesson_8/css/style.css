@@ -519,6 +519,11 @@ line-height: 33.50px;
 
   }
 
+  .lorem{
+    background: rgb(215,206,10);
+    background: linear-gradient(51deg, rgba(215,206,10,1) 5%, rgba(9,9,121,1) 72%, rgba(255,21,0,0.44030112044817926) 92%);
+  }
+
   .many_cats{
     width: 100%;
     height: 1600px;
