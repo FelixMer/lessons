@@ -1,0 +1,305 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+
+@font-face{
+  font-family: WolfpackHalloweed;
+  src: url(../fonts/WolfpackHalloweed-EaGOl.woff);
+  src: url(../fonts/WolfpackHalloweed-EaGOl.woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Header */
+.header{
+  background-color: chartreuse;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 20;
+}
+
+.header__body{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+  font-family: WolfpackHalloweed;
+  font-size: 20px;
+
+
+}
+.menu__item{
+  display: inline-block;
+  position: relative;
+}
+
+.menu__item:hover {
+ background-color: rgb(243, 39, 39);
+ border-radius: 50%;
+}
+
+.menu__item:hover .sub-menu_list {
+  visibility: visible;
+}
+.menu__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.menu a {
+  padding: 10px 15px;
+  width: 120px;
+}
+
+.sub-menu_list {
+  position: absolute;
+  top: 100;
+  left: 0;
+  padding: 15px;
+  visibility: hidden;
+  width: 120px;
+}
+.sub-menu_item {
+  position: relative;
+
+}
+
+.sub-menu_item:hover {
+  background-color: #e6e683;
+}
+
+.sub-menu_item:hover .under-sub-menu {
+  visibility: visible;
+}
+
+.under-sub-menu{
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 150px;
+  padding: 15px;
+  background-color: #e6e683;
+  
+}
+
+.under-sub-menu__item{
+  background-color: #595905;
+  border-radius: 50%;
+
+}
+.under-sub-menu__item:hover{
+  background-color: #c0c005;
+  border-radius: 50%;
+}
+
+
+
+
+/*** background image experts ***/
+
+.site__foto{
+  width: 100%;
+  height: 485px;
+  
+  
+  
+  background: url(../img/our_experts.png) no-repeat;
+  background-size: 100%;
+
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.foto_sub_title,
+.expert__status{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.foto{
+  width: 1920px;
+}
+
+.foto__text {
+  
+  background-color: #37393FE8;
+  max-width: 828px;
+  height: 458px;
+  color: #FFFFFF;
+  padding: 142px 0 0 210px;
+  backdrop-filter: blur(19px);
+  
+}
+
+
+
+.foto_title,
+.expert__status{
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+}
+.expert__status{
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+.foto_sub_title::before{
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-color: #40DDB6;
+  margin-right: 7px;
+}
+
+/*** Липукчка ***/
+
+.site__sticy{
+  max-width: 1920px;
+  margin: 0 auto;
+
+ 
+  
+}
+
+.sticy_block{
+  display: block;
+}
+
+.sticy_title{
+  text-align: center;
+  font-family: WolfpackHalloweed;
+  font-size: 100px;
+  position: sticky;
+  top: 200px;
+  color: crimson;
+}
+
+.stiky__block-one{
+  left: 0;
+  align-items: center;
+}
+
+
+/*** Картки співробітників ***/
+
+.experts {
+  max-width: 1250px;
+  padding: 30px 15px;
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.expert {
+	display: inline-block;
+	width: 386px;
+	height: 532px;
+	position: relative;
+}
+
+.experts__block{
+  margin: 0 auto;
+}
+
+.experts__block:not(:nth-child(3n+3)) {
+	margin-right: 31px;
+}
+
+.experts__block:nth-child(1),
+.experts__block:nth-child(2),
+.experts__block:nth-child(3) {
+	margin-bottom: 31px;
+}
+
+.expert:hover .expert__social {
+	visibility: visible;
+}
+
+.expert__bio {
+	position: absolute;
+	padding: 24px 47px;
+	top: 396px;
+	left: 22px;
+	background-color: #FFF;
+	width: 341px;
+}
+
+.expert__name {
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.expert__status {
+	color: #7D7D7D;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 1.35;
+}
+
+.expert__social {
+	position: absolute;
+
+}
+
+.messengers {
+	background-color:  rgba(107, 119, 229, 0.70);
+	top: 0;
+	left: 0;
+	width: 386px;
+	height: 532px;
+	visibility: hidden;
+}
+
+.messengers__most-popular {
+	position: absolute;
+	top: 241px;
+	left: 107.5px;
+}
+
+.messengers_link:not(:last-child) {
+	margin-right: 13px;
+}
+
+.messengers_logo {
+	width: 45px;
+	height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
