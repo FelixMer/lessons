@@ -5,9 +5,23 @@
   overflow: clip;
   min-height: 100%;
   width: 100%;
+  position:absolute;
   margin: 0 auto;
-  background: url(../img/city_landscape.png) 0 0 repeat;
+  background: url(../img/city_landscape.png) 0 0 repeat-x;
+  animation: run;
+  animation-duration: 3.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   background-size: 50%;
+}
+
+@keyframes run {
+  0% {
+     background-position: 0 0;
+  }
+  100% {
+     background-position: 200% 0;
+  }
 }
 
 .main{
@@ -290,9 +304,10 @@ z-index: 50
 }
 
 .spare__passanger-tho{
-  animation-name: rotate;
+animation-name: rotate;
 animation-duration: 6s;
-  content: "";
+animation-delay: 2s;
+content: "";
 width: 100px;
 height: 120px;
 background: url(../img/kyle.png) no-repeat;
