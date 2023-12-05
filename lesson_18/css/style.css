@@ -612,26 +612,51 @@
 	.individual__images{
 		flex-direction: column;
 		align-items: center;
-        text-align: center;
+		text-align: center;
 		
-
 	}
-
 	.individual-buttons{
 		flex-direction: column;
-        align-items: center;
-        text-align: center;
+		align-items: center;
+		text-align: center;
 		margin-right: 0px;
 		
 		}
-
-		.button{
-			margin-right: 0px;
-			margin-bottom: 30px;
-		}
-
+		
+		
+	.button{
+		margin-right: 0px;
+		margin-bottom: 30px;
 	}
 	.individual__image:first-child {
-	   transform: translateY(0px);
+		transform: translateY(0px);
 	}
 }
+	
+	
+	
+    
+	
+
+	
+
+	
+	
+    
+    
+	
+	
+	
+
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+	
